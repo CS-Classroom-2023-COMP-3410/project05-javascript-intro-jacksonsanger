@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .game-container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .story {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+  }
+  
+  .choices {
+    margin-bottom: 20px;
+  }
+  
+  .choices button {
+    background: #007bff;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  
+  .choices button:hover {
+    background: #0056b3;
+  }
+  
+  .controls {
+    margin-top: 20px;
+  }
+  
+  .controls button {
+    background: #ffc107;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  
+  .controls button:hover {
+    background: #d39e00;
+  }
+  
+  .progress {
+    margin-top: 20px;
+  }
+  
+  .progress-bar {
+    height: 20px;
+    background-color: #28a745;
+    border-radius: 10px;
+    transition: width 0.3s;
+  }
+  
