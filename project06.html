@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Periodic Table</title>
+  <link rel="stylesheet" href="css/project06.css">
+</head>
+<body>
+  <div class="periodic-table-container">
+    <h1>Interactive Periodic Table</h1>
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search by name, symbol, or atomic number">
+    </div>
+    <div id="periodicTable" class="periodic-table">
+      <!-- The periodic table grid will be dynamically populated here -->
+    </div>
+    <div id="elementDetails" class="element-details hidden">
+      <h2>Element Details</h2>
+      <p><strong>Symbol:</strong> <span id="elementSymbol"></span></p>
+      <p><strong>Name:</strong> <span id="elementName"></span></p>
+      <p><strong>Atomic Number:</strong> <span id="elementNumber"></span></p>
+      <p><strong>Group:</strong> <span id="elementGroup"></span></p>
+    </div>
+  </div>
+  <script src="js/project06.js"></script>
+</body>
+</html>
