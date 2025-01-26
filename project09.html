@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sorting Visualization Tool</title>
+  <link rel="stylesheet" href="css/project09.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Sorting Visualization Tool</h1>
+    <div class="controls">
+      <select id="algorithmSelector">
+        <option value="bubbleSort">Bubble Sort</option>
+        <option value="insertionSort">Insertion Sort</option>
+      </select>
+      <label for="speedSlider">Speed:</label>
+      <input type="range" id="speedSlider" min="10" max="1000" step="10" value="500">
+      <button id="startButton">Start Sorting</button>
+      <button id="resetButton">Reset Array</button>
+    </div>
+    <div id="explanation" class="explanation"></div>
+    <div id="arrayContainer" class="array-container"></div>
+  </div>
+  <script src="js/project09.js"></script>
+</body>
+</html>
