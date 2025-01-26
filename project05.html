@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Customizable Drawing Canvas</title>
+  <link rel="stylesheet" href="css/project05.css">
+</head>
+<body>
+  <div class="canvas-container">
+    <h1>Customizable Drawing Canvas</h1>
+    <div class="controls">
+      <label for="brushSize">Brush Size:</label>
+      <input type="range" id="brushSize" min="1" max="50" value="5">
+      <label for="brushColor">Brush Color:</label>
+      <input type="color" id="brushColor" value="#000000">
+      <label for="bgColor">Canvas Background:</label>
+      <input type="color" id="bgColor" value="#ffffff">
+    </div>
+    <canvas id="drawingCanvas" width="800" height="500"></canvas>
+    <div class="buttons">
+      <button id="undoBtn">Undo</button>
+      <button id="clearBtn">Clear</button>
+      <button id="saveBtn">Save as Image</button>
+    </div>
+  </div>
+  <script src="js/project05.js"></script>
+</body>
+</html>
