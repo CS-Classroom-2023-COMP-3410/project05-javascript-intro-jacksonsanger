@@ -1,20 +1,55 @@
 const questions = [
-    {
-      question: "What is the capital of France?",
-      options: ["Berlin", "Madrid", "Paris", "Rome"],
-      correct: 2,
-    },
-    {
-      question: "Which planet is known as the Red Planet?",
-      options: ["Earth", "Mars", "Jupiter", "Saturn"],
-      correct: 1,
-    },
-    {
-      question: "What is the largest ocean on Earth?",
-      options: ["Atlantic", "Indian", "Arctic", "Pacific"],
-      correct: 3,
-    },
-  ];
+  {
+    question: "What is the capital of France?",
+    options: ["Berlin", "Madrid", "Paris", "Rome"],
+    correct: 2,
+  },
+  {
+    question: "Which planet is known as the Red Planet?",
+    options: ["Earth", "Mars", "Jupiter", "Saturn"],
+    correct: 1,
+  },
+  {
+    question: "What is the largest ocean on Earth?",
+    options: ["Atlantic", "Indian", "Arctic", "Pacific"],
+    correct: 3,
+  },
+  {
+    question: "Who wrote 'To Kill a Mockingbird'?",
+    options: ["Harper Lee", "J.K. Rowling", "George Orwell", "Mark Twain"],
+    correct: 0,
+  },
+  {
+    question: "What is the chemical symbol for gold?",
+    options: ["Ag", "Au", "Pb", "Pt"],
+    correct: 1,
+  },
+  {
+    question: "In what year did the Titanic sink?",
+    options: ["1912", "1905", "1920", "1918"],
+    correct: 0,
+  },
+  {
+    question: "What is the smallest prime number?",
+    options: ["0", "1", "2", "3"],
+    correct: 2,
+  },
+  {
+    question: "What is the longest river in the world?",
+    options: ["Amazon", "Nile", "Yangtze", "Mississippi"],
+    correct: 1,
+  },
+  {
+    question: "Which gas do plants primarily use for photosynthesis?",
+    options: ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
+    correct: 1,
+  },
+  {
+    question: "Which country is the origin of the Olympic Games?",
+    options: ["Italy", "Greece", "Egypt", "France"],
+    correct: 1,
+  },
+];
   
   let currentQuestionIndex = 0;
   let userAnswers = [];
